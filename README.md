@@ -1,4 +1,5 @@
 # Books
+[![CircleCI](https://circleci.com/gh/jmhummel/angular-book-manager.svg?style=svg&circle-token=979d3d0f650ee7827779e382f503014f0fb271a0)](https://circleci.com/gh/jmhummel/angular-book-manager)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
