@@ -3,7 +3,7 @@ import {InMemoryDbService} from 'angular-in-memory-web-api';
 import {Book} from './book';
 
 export class InMemoryDataService implements InMemoryDbService {
-  createDb(reqInfo?: RequestInfo): { books: Book[] } {
+  createDb(reqInfo?: RequestInfo): {} {
     const books = [
       { id: 11, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
       { id: 12, title: 'To Kill a Mockingbird', author: 'Harper Lee' },

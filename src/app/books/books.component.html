@@ -5,15 +5,18 @@
   <label>Book title:
     <input #bookTitle />
   </label>
+  <br>
   <label>Book author:
     <input #bookAuthor />
   </label>
+  <br>
   <label>Book description:
     <input #bookDescription />
   </label>
+  <br>
 
   <!-- (click) passes input value to add() and then clears the input -->
-  <button (click)="add(bookTitle.value); bookTitle.value=''">
+  <button (click)="add(bookTitle.value, bookAuthor.value, bookDescription.value); bookTitle.value=''; bookAuthor.value=''; bookDescription.value=''">
     add
   </button>
 
