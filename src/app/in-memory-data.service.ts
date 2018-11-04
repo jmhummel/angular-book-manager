@@ -4,7 +4,7 @@ import {Observable} from 'rxjs';
 import {Book} from './book';
 
 export class InMemoryDataService implements InMemoryDbService {
-  createDb(reqInfo?: RequestInfo): {} | Observable<{}> | Promise<{}> {
+  createDb(): { books: Book[] } {
     const books = [
       { id: 11, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
       { id: 12, title: 'To Kill a Mockingbird', author: 'Harper Lee' },
