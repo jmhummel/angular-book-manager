@@ -19,7 +19,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Build for Github
-Run `ng build --prod --output-path docs --base-href "/angular-book-manager/""`
+Run `ng build --prod --output-path docs --base-href "/angular-book-manager/"`
 
 [Publishing your GitHub Pages site from a /docs folder on your master branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch)
 
